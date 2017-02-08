@@ -1,0 +1,21 @@
+{
+  "name": "hn_entities",
+  "version": "0.0.1",
+  "description": "Henson.js Entities",
+  "browserify": {
+    "transform": [
+      "coffeeify",
+      [
+        "jadeify",
+        {
+          "basedir": "node_modules/"
+        }
+      ]
+    ],
+    "extension": [
+      "coffee"
+    ]
+  },
+  "author": "aeksco@gmail.com",
+  "license": "MIT"
+}
